@@ -6,6 +6,7 @@ var gamePattern = [];
 var userClickedPattern = [];
 // game level
 var level = 0;
+var interval = 1000;
 // check if game start
 var started = false;
 // check if user has failed at least once
@@ -17,7 +18,11 @@ var second = 6;
 var afternoon = "PM";
 // music timing - play for 60s
 var time = 1;
-
+// background music control
+var backMusic = new Audio("sounds/musicbox.mp3");
+backMusic.loop = true;
+var speed = 0.6;
+backMusic.playbackRate = speed;
 // when any key is pressed and game have not started, start game
 $("*").keypress(function(event) {
   if (!started) {
@@ -32,6 +37,7 @@ $("*").keypress(function(event) {
       addTimer();
       playClock();
       playAudio("clock");
+      backMusic.play();
     }
   }
 });
@@ -65,6 +71,7 @@ function playAudio(name) {
   var audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
 }
+
 // generate animation when button is pressed
 function animatePress(currColor) {
   $("#" + currColor).addClass("pressed");
@@ -76,10 +83,15 @@ function animatePress(currColor) {
 // play sound & animation effect when user lose game
 function gameFail() {
   failed = true;
+  interval -= 100;
+  speed += 0.3
+  backMusic.playbackRate = speed;
   $("body").addClass("game-over");
-  setTimeout(function() {
-    $("body").removeClass("game-over");
-  }, 200);
+  if(minute != 6 || second != 7){
+    setTimeout(function() {
+      $("body").removeClass("game-over");
+    }, 200);
+  }
   playAudio("wrong");
   $("#level-title").text("You Failed. Press A Key to try again");
   // reset game values
@@ -87,7 +99,7 @@ function gameFail() {
 }
 
 function gameSucceed(){
-  window.location.replace("storystart.html");
+  window.location.replace("story1.html");
 }
 
 // check if user's click button match game pattern
@@ -105,7 +117,7 @@ function checkAnswer() {
     // after 1s, play next sequence
     setTimeout(function() {
       nextSequence();
-    }, 1000);
+    }, interval);
   }
 }
 // reset needed game variables
@@ -113,6 +125,7 @@ function restart() {
   // reset value if time not run out but user fail
   started = false;
   level = 0;
+  interval = 1000;
   gamePattern = [];
   userClickedPattern = [];
   // reset time variables and failed boolean if time also run out
@@ -121,6 +134,7 @@ function restart() {
     minute = 5;
     second = 6;
     failed = false;
+    speed = 0.7;
   }
 }
 
