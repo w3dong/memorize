@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="Layer_1"
+    enable-background="new 0 0 432 180"
+    xml:space="preserve"
+    viewBox="0 0 432 180"
+    version="1.1"
+    y="0px"
+    x="0px"
+  >
+<g
+    >
+	<path
+        d="m216 24.41c-86.96 0-179.92 65.59-179.92 65.59s92.826 65.59 179.92 65.59 179.92-65.59 179.92-65.59-92.96-65.59-179.92-65.59z"
+        fill="#FFFFFF"
+    />
+	<radialGradient
+        id="SVGID_1_"
+        gradientUnits="userSpaceOnUse"
+        cy="94.986"
+        cx="219.62"
+        r="476"
+      >
+		<stop
+          style="stop-color:#90552F"
+          offset="0"
+      />
+		<stop
+          style="stop-color:#7D4A27"
+          offset=".0452"
+      />
+		<stop
+          style="stop-color:#543415"
+          offset=".154"
+      />
+		<stop
+          style="stop-color:#3B260A"
+          offset=".2401"
+      />
+		<stop
+          style="stop-color:#322106"
+          offset=".2921"
+      />
+		<stop
+          style="stop-color:#8D5D25"
+          offset=".5899"
+      />
+		<stop
+          style="stop-color:#543213"
+          offset=".8483"
+      />
+		<stop
+          style="stop-color:#C3922E"
+          offset="1"
+      />
+	</radialGradient
+    >
+	<path
+        d="m298.9 91c0-22.546-9.031-42.96-23.637-57.904-19.28-5.267-39.43-8.686-59.26-8.686-19.833 0-39.975 3.418-59.259 8.686-14.6 14.944-23.64 35.358-23.64 57.904 0 20.935 7.777 40.043 20.579 54.634 2.634 0.883 5.252 1.732 7.855 2.551 17.806 4.533 36.258 7.405 54.462 7.405s36.655-2.872 54.459-7.405c2.604-0.818 5.223-1.667 7.857-2.551 12.8-14.59 20.58-33.69 20.58-54.63z"
+        fill="url(#SVGID_1_)"
+    />
+	<path
+        stroke="#603813"
+        stroke-width="2.2265"
+        d="m216 24.41c-86.96 0-179.92 65.59-179.92 65.59s92.826 65.59 179.92 65.59 179.92-65.59 179.92-65.59-92.96-65.59-179.92-65.59z"
+        fill="none"
+    />
+	<circle
+        cy="91"
+        cx="216"
+        r="33.158"
+    />
+</g
+  >
+<metadata
+    ><rdf:RDF
+      ><cc:Work
+        ><dc:format
+          >image/svg+xml</dc:format
+        ><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        /><cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        /><dc:publisher
+          ><cc:Agent
+              rdf:about="http://openclipart.org/"
+            ><dc:title
+              >Openclipart</dc:title
+            ></cc:Agent
+          ></dc:publisher
+        ><dc:title
+          >Eye</dc:title
+        ><dc:date
+          >2011-05-10T06:23:25</dc:date
+        ><dc:description
+          >A simple illustration of an eye.</dc:description
+        ><dc:source
+          >https://openclipart.org/detail/137815/eye-by-jgm104</dc:source
+        ><dc:creator
+          ><cc:Agent
+            ><dc:title
+              >jgm104</dc:title
+            ></cc:Agent
+          ></dc:creator
+        ><dc:subject
+          ><rdf:Bag
+            ><rdf:li
+              >cornea</rdf:li
+            ><rdf:li
+              >eye</rdf:li
+            ><rdf:li
+              >eyeball</rdf:li
+            ><rdf:li
+              >human</rdf:li
+            ><rdf:li
+              >pupil</rdf:li
+            ></rdf:Bag
+          ></dc:subject
+        ></cc:Work
+      ><cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        ><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        /></cc:License
+      ></rdf:RDF
+    ></metadata
+  ></svg
+>

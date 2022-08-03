@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 176.41 170.93" version="1.0">
+  <defs id="defs4">
+    <linearGradient id="linearGradient6417">
+      <stop id="stop6419" stop-color="#ff5151" offset="0"/>
+      <stop id="stop6433" stop-color="#fc1010" offset=".23517"/>
+      <stop id="stop9094" stop-color="#fd0000" offset=".59862"/>
+      <stop id="stop6421" stop-color="#e20000" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3676">
+      <stop id="stop3678" stop-color="#fff" stop-opacity=".4902" offset="0"/>
+      <stop id="stop3680" stop-color="#fff" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <radialGradient id="radialGradient6431" xlink:href="#linearGradient6417" gradientUnits="userSpaceOnUse" cy="-339.24" cx="-39.951" gradientTransform="matrix(-.44006 -.30671 .66778 -.95812 315.28 -253.2)" r="81.205"/>
+    <radialGradient id="radialGradient9107" xlink:href="#linearGradient6417" gradientUnits="userSpaceOnUse" cy="-339.24" cx="-39.951" gradientTransform="matrix(.44006 -.30671 -.66778 -.95812 -135.96 -253.2)" r="81.205"/>
+    <radialGradient id="radialGradient9129" xlink:href="#linearGradient3676" gradientUnits="userSpaceOnUse" cy="-324.93" cx="-34.343" gradientTransform="matrix(-.30152 -.32072 .38666 -.36352 238.5 -69.348)" r="81.205"/>
+    <radialGradient id="radialGradient16266" xlink:href="#linearGradient3676" gradientUnits="userSpaceOnUse" cy="-324.93" cx="-34.343" gradientTransform="matrix(-.15233 -.15233 .21553 -.21553 188.01 -15.477)" r="81.205"/>
+  </defs>
+  <path id="path6423" d="m89.627 35.51s31.303-42.495 66.393-21.088c35.28 21.517 5.93 89.548-66.384 149.9" fill="url(#radialGradient6431)" fill-rule="evenodd"/>
+  <path id="path9127" d="m89.627 35.51s31.303-42.495 66.393-21.088c35.28 21.517 5.93 89.548-66.384 149.9" fill="url(#radialGradient9129)" fill-rule="evenodd"/>
+  <path id="path9096" d="m89.688 35.513s-31.298-42.495-66.393-21.088c-35.277 21.517-5.927 89.545 66.384 149.9" fill="url(#radialGradient9107)" fill-rule="evenodd"/>
+  <path id="path9121" d="m89.627 35.51s31.303-42.495 66.393-21.088c35.28 21.517 5.93 89.548-66.384 149.9" fill="url(#radialGradient16266)" fill-rule="evenodd"/>
+  <path id="use10919" fill-rule="evenodd" fill="#d40000" d="m-109.64 256.66s31.299-42.5 66.394-21.09c35.278 21.52 5.928 89.55-66.384 149.89-72.31-60.34-101.42-128.17-66.15-149.69 35.1-21.41 66.14 20.89 66.14 20.89z"/>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>love heart</dc:title>
+        <dc:date>2006-12-30T15:22:27</dc:date>
+        <dc:description>Heart</dc:description>
+        <dc:source>http://openclipart.org/detail/2528/love-heart-by-gmcglinn</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>GMcGlinn</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>blood</rdf:li>
+            <rdf:li>body</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>heart</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>love</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>passion</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>red</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
