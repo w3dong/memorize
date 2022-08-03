@@ -14,12 +14,41 @@ body {
 }
 
 .game-img{
+  position: relative;
   height : auto;
   width : 25%;
   margin: 5% 0;
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
+
+
+
+.invisible{
+  visibility: hidden;
+}
+.night{
+  background-color: black;
+  background-image: none;
+}
+.blood-night{
+  background-image: url("https://w0.peakpx.com/wallpaper/934/415/HD-wallpaper-moon-night-pixelart.jpg");
+  opacity: 0.8;
+  background-color: red;
+}
+
+.evening{
+  background-image: url("https://i.pinimg.com/originals/cc/c0/21/ccc021761e965fe269b9668604551adc.png");
+  background-size: cover;
+}
+
+#container {
+  position: fixed;
+  bottom: 130px;
+  right: 0;
+}
+
 #chat-box{
   line-height: 1.5;
   width: 60%;
@@ -33,12 +62,34 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-size: 1.5rem;
   resize: none;
+  vertical-align: bottom;
+  position: relative;
+  margin: 0 5px;
+  pointer-events: auto;
 }
+
 @media only screen and (max-width: 1028px) {
   #game-title{
     text-align: center;
     font-size: 2rem;
   }
+}
+
+#music-hint{
+ font-size: 1rem;
+ margin-bottom: 0;
+ padding: 0;
+ display: none;
+}
+
+.fa-music:hover ~ #music-hint{
+  color: black;
+  visibility:visible;
+  display: block;
+}
+
+.fa-music:hover{
+  color: #ffffff;
 }
 
 .startButton {
