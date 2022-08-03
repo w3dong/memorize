@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <title>Memorize</title>
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8c6cfa6ebd.js" crossorigin="anonymous"></script>
 </head>
 
 <body style="background-image: url('https://preview.redd.it/48sv44jin6m71.gif?format=png8&s=1025ffd848b7cb9cd44b43327d8a9055a977560c');">
-  <h1 id="game-title">Memorize</h1>
+  <div class="start">
+    <h1 id="game-title">Memorize
+      <i class="fa-solid fa-music"></i>
+      <p id="music-hint">Play Background Music by click</p>
+    </h1>
+  </div>
+
   <input type=button class="startButton" onClick="location.href='storystart.html'" value='Start Game'>
-  <!--img class = "game-img" src="https://papik.pro/en/uploads/posts/2022-06/1655499988_4-papik-pro-p-apple-pixel-drawings-4.png" alt="image-of-an-apple"-->
-  <!--img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/openmoji/338/red-apple_1f34e.png" alt="image-of-an-apple"-->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="game.js" charset="utf-8"></script>
+  <script src="js/story.js" charset="utf-8"></script>
 </body>
 
 </html>
