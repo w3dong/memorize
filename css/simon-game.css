@@ -44,8 +44,9 @@ body {
 }
 
 .game-over {
-  background-color: red;
+  background-image: url("https://w0.peakpx.com/wallpaper/934/415/HD-wallpaper-moon-night-pixelart.jpg");
   opacity: 0.8;
+  background-color: red;
 }
 
 .red {
